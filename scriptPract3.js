@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
     const displayWeatherInfo = document.getElementById('weather-info');
     const cityInput = document.getElementById('city-input');
 
-     const API_KEY = "72dd6f0210bd7c17dbd2baa6497e69e4"; 
+     const API_KEY = CONFIG.API_KEY; 
 
 
 
